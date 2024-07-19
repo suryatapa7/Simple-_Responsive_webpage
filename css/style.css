@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    color: #2e354f;
+}
+
+h1,
+h2,strong {
+    font-weight: 900;
+}
+
+/* Typography */
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
+    color: #ef5839;
+}
+
+a {
+    color: #ef5839;
+}
+
+a:hover,
+a:focus {
+    color: #EFB339;
+}
+
+/* layout */ 
+
+header {
+    background-color: #2e354f;
+    color: #fff;
+    padding: 45px 0;
+}
+
+section {
+    padding: 45px 0;
+}
+
+.container {
+    width: 620px;
+    margin: 0 auto;
+    /* border: 2px solid magenta; */
+}
+
+.section-two {
+    background-color: #2e354f;
+    color: #fff;
+}
+
+/* buttons */
+
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+.btn-accent {
+    background-color: #ef5839;
+    color:#fff;
+}
+
+.btn-accent:hover {
+    background-color: #EF3975;
+    color: #000;
+}
+
+.btn-white {
+    background-color: #fff;
+    color:#2e354f
+}
+
+.btn-white:hover {
+    background-color: #827D7D;
+    color: #EF3975
+}
+
+
+.section-three h1 {
+    font-size: 48px;
+    color: #2e7ad3;
+    text-align: center;
+    margin: 45px 0;
+}
+
+.section-three h2 {
+    font-size: 32px;
+    color: #104c90;
+    margin: 0 0 10px;
+}
+
+.section-three  a {
+    color: #ff8000;
+    font-weight: bold;
+}
+
+.section-three a:hover, 
+.section-three a:focus {
+    color: #104c90;
+}
+
+.blog-post {
+    background: #f1f1f1;
+    width: 450px;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+.read-more {
+    margin: 0;
+}
+
+
+
+.section-four .card {
+    background: #2e354f;
+    color: white;
+    width: 560px;
+    margin: 0 auto;
+    padding: 45px;
+}
+
+.section-four h1, .section-four p {
+    margin-top: 0;
+}
+
+.section-four h1 {
+    font-size: 24px;
+}
+
+.section-four p {
+    font-size: 18px;
+    color: white;
+}
+
+.section-four a {
+    color: #FFE600;
+}
+
+.section-four .button {
+    display: inline-block;
+    background: #FFE600;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+
+.section-four .button:hover {
+    background: orange;
+}
+
+.section-four .accent-color {
+    color: #FFE600;
+}
+
+.section-four .links {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.section-four p {
+    color: pink;
+}
+
+.section-four p {
+    color: green;
+}
+
+.section-four .accent-color {
+    color: deeppink;
+}
